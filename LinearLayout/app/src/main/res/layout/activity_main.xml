@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     tools:context=".MainActivity"
     android:weightSum="3"
     >
@@ -12,7 +12,7 @@
     <LinearLayout
     android:id="@+id/hitam"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="horizontal"
     android:background="@color/hitam"
     android:layout_weight="1"
@@ -24,11 +24,11 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/merah"
+        android:id="@+id/kuning"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:background="@color/merah"
+        android:background="@color/kuning"
         android:layout_weight="1"
         >
     <TextView
@@ -38,11 +38,11 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/kuning"
+        android:id="@+id/merah"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:background="@color/kuning"
+        android:background="@color/merah"
         android:layout_weight="1"
         >
         <TextView
