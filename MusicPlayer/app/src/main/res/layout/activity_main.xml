@@ -11,10 +11,11 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/menu"
-        tools:layout_editor_absoluteY="30dp" />
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -49,9 +50,9 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:fontFamily="@font/lato_regular"
-        android:text="James Arthur"
+        android:text="Gummy (거미)"
         android:textColor="@color/colorArtis"
         android:textSize="15pt"
         app:layout_constraintEnd_toEndOf="parent"
@@ -114,7 +115,7 @@
         android:id="@+id/imageView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="35dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -125,7 +126,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/lato_light"
-        android:text="Empty Space"
+        android:text="Remember Me"
         android:textColor="@color/colorLagu"
         android:textSize="10pt"
         app:layout_constraintEnd_toEndOf="parent"
